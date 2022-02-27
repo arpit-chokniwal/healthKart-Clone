@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Profile Page</title>
+    <link rel="stylesheet" href="./style/product_profile.css" />
+    <link rel="stylesheet" href="./style/index.css" />
+  </head>
+  <body>
+    <!-- nav bar -->
+    <div id="nav_bar_div"></div>
+
+    <!-- tot box -->
+    <div id="pp_box1">
+      <div id="pp_box11">
+        <div id="pp_box111">
+          <span>
+            <img
+              id="veg_logo"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Indian-vegetarian-mark.svg/800px-Indian-vegetarian-mark.svg.png"
+              alt=""
+            />
+          </span>
+          <span id="best_price">
+            <img
+              id="best_price_img"
+              src="https://cdn-icons-png.flaticon.com/128/1828/1828961.png"
+              alt=""
+            />
+            <p>BEST PRICE</p>
+          </span>
+        </div>
+        <div id="pp_box112">
+          <img  id="big_img" />
+        </div>
+        <div id="pp_box113">
+          <img onclick="smallImg1(1)" src="" id="small_img1" />
+          <img
+            onclick="smallImg1(2)"
+            src="https://img10.hkrtcdn.com/13526/prd_1352549-MuscleBlaze-Super-Gainer-XXL-11-lb-Chocolate-Mint_o.jpg"
+            id="small_img2"
+          />
+          <img
+            onclick="smallImg1(3)"
+            src="https://img2.hkrtcdn.com/13526/prd_1352551-MuscleBlaze-Super-Gainer-XXL-11-lb-Chocolate-Mint_o.jpg"
+            id="small_img3"
+          />
+        </div>
+      </div>
+      <div id="pp_box12">
+        <div id="pp_box121">
+          <h3 id="ls_name"></h3>
+        </div>
+        <div id="pp_box122">
+          By
+          <span id="gree_text">MuscleBlaze ></span>
+        </div>
+        <div id="pp_box123">
+          <span>35% OFF</span>
+        </div>
+        <div id="pp_box124">
+          <span id="price_of_item"></span>
+          <span>₹<span id="ls_price">5849</span></span>
+          <span id="hk_cash"
+            >+<img
+              src="https://static1.hkrtcdn.com/hknext/static/media/common/hk-cash-yellow.svg"
+              alt=""
+            />Get HK Cash:₹76</span
+          >
+          <p>Get it by <b>26 Jan</b> +Free Shipping</p>
+        </div>
+        <div id="pp_box125">
+          <span id="pp_box1251">
+            <img
+              id="prime_img"
+              src="https://static1.hkrtcdn.com/hknext/static/media/loyalty/premium-logo-new.svg"
+              alt=""
+            />
+            Premium Member Price: ₹3,685 >
+          </span>
+        </div>
+        <div id="pp_box126">
+          <button id="pp_btn1">
+            <div onclick="removeOne()">-</div>
+            <div id="pp_quantity">1</div>
+            <div onclick="addOne()">+</div>
+          </button>
+          <button onclick="addToCart()" id="pp_btn2">ADD TO CART</button>
+          <button id="pp_btn3">QUICK BUY</button>
+        </div>
+        <div id="pp_box127">
+          <div id="pp_box1271">
+            <span> WEIGHT </span>
+            <span>
+              <button onclick="unitChange(1)" id="pound">Pound (lb)</button>
+              <button onclick="unitChange(2)" id="kilogram">
+                Kilograms(kg)
+              </button>
+            </span>
+          </div>
+          <div id="pp_box1272">
+            <button onclick="selectQuantity(1)" class="pp_btn4" id="ppbtn41">
+              498g
+            </button>
+            <button onclick="selectQuantity(2)" class="pp_btn4" id="ppbtn42">
+              5.0 kg
+            </button>
+            <button onclick="selectQuantity(3)" class="pp_btn4" id="ppbtn43">
+              997g
+            </button>
+          </div>
+        </div>
+        <div id="pp_box127">
+          <div id="pp_box1271">FLAVOUR(3 Options)</div>
+          <div id="pp_box1272">
+            <select name="" id="flavour">
+              <option value="Chocolate Mint">Chocolate Mint</option>
+              <option value="Chocolate">Chocolate</option>
+              <option value="Banana">Banana</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- bottom box -->
+    <div id="pp_box2">
+      <div id="pp_box21">
+        <div id="pp_box211">
+          <span id="pp_wishlist">
+            <img
+              src="https://static1.hkrtcdn.com/hknext/static/media/common/variant/wishlist/heart-icon.svg"
+              alt=""
+            />
+            Add to wishlist
+          </span>
+          <span id="pp_compare">
+            <img
+              src="https://static1.hkrtcdn.com/hknext/static/media/pdp/compare.svg"
+              alt=""
+            />
+            Add to Compare
+          </span>
+        </div>
+        <div id="pp_box212">
+          <div id="pp_box2121">
+            <h3>Products Benefits</h3>
+            <li>
+              <img
+                src="https://static1.hkrtcdn.com/hknext/static/media/pdp/Component-icon-ic_Check.svg"
+                alt=""
+              />
+              Helps in Mass Gaining
+            </li>
+            <li>
+              <img
+                src="https://static1.hkrtcdn.com/hknext/static/media/pdp/Component-icon-ic_Check.svg"
+                alt=""
+              />
+              Generally Consumed With Milk
+            </li>
+          </div>
+        </div>
+        <div id="pp_box213">
+          <h3>Product Details</h3>
+          <div>
+            <ul>
+              <li>
+                MuscleBlaze Super Gainer XXL Chocolate mint is crafted
+                especially for hardcore fitness enthusiasts who work hard to
+                gain big and sturdy muscles and a sculpted physique
+              </li>
+              <li>
+                This advanced formula offers 15g protein per 100g serving. It
+                has a blend of fast and slow-releasing proteins
+              </li>
+              <li>
+                It offers 75g of simple and complex carbs per serving of 100g
+                that ensures a robust and sustained calorie release in your body
+                to fuel your muscles for a longer duration
+              </li>
+              <li>
+                MuscleBlaze Super Gainer XXL is enriched with 27 vital vitamins
+                and minerals that help in boosting the immunity and regulating
+                enzymes in your body
+              </li>
+              <li>
+                Available in scrumptious chocolate mint flavor, MuscleBlaze
+                Super Gainer XXL is free from any added sugars and trans fats
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="pp_box22">
+        <div id="pp_box221">
+          <div>
+            <h4 class="d_options">Delivery Options</h4>
+          </div>
+          <div class="pp_box2212">
+            <div class="d_pincode">
+              <input
+                id="pincode"
+                type="text"
+                placeholder="Enter Pincode"
+                tabindex="10"
+              />
+              <input
+                onclick="pincodeFunc()"
+                id="check"
+                type="button"
+                value="Check"
+              />
+            </div>
+            <p id="address">Enter pin code to get address</p>
+            <div>
+              <img
+                src="https://static1.hkrtcdn.com/hknext/static/media/pdp/target.svg"
+              />
+              USE MY LOCATION
+            </div>
+            <div>
+              <img
+                src="https://static1.hkrtcdn.com/hknext/static/media/common/tick_icon.svg"
+                alt=" "
+              />
+              <span>Free Shipping </span>
+            </div>
+            <div>
+              <img
+                src="https://static1.hkrtcdn.com/hknext/static/media/common/tick_icon.svg"
+                alt=" "
+              />
+              <span>Cash on Delivery Available </span>
+            </div>
+            <div>
+              <img
+                src="https://static1.hkrtcdn.com/hknext/static/media/common/tick_icon.svg"
+                alt=" "
+              />
+              <span>14 days Return </span>
+            </div>
+          </div>
+        </div>
+        <div id="pp_box222">
+          <div id="pp_box2221">
+            <div>
+              <span>
+                <h4 class="d_options">Seller Information:</h4>
+              </span>
+            </div>
+            <div>Sold by</div>
+            <span> Bright Lifecare Pvt Ltd. </span>
+            <span>&nbsp;Fulfilled by HealthKart.</span>
+            <div>
+              <span> Manufacturer:</span>
+              <span>
+                Sapiens Labs, Village Dhana Bagbania, P.O. Manpura,Tehsil
+                Nalagarh , Solan (Himachal Pradesh), 174101, Contact:
+                8130505050, Email: care@healthkart.com</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div id="footer_div"></div>
+  </body>
+ 
+</html>
+
+<script type="module">
+  import { footer, navbarfirst } from "./components/components.js";
+  document.getElementById("footer_div").innerHTML = footer();
+  document.getElementById("nav_bar_div").innerHTML = navbarfirst();
+</script>
+<script src="./scripts/product_profile.js"></script>
+
+

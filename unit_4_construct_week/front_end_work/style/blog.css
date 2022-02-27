@@ -1,0 +1,82 @@
+#hb,#ep,#ea{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4%;
+    justify-content: space-around;
+    font-family: sans-serif;
+    margin-top: 5%;
+}
+#container > div{
+    margin-top: 3%;
+}
+
+#maindivhb,#maindivep,#maindivea{
+    display: flex;
+}
+#datadivhb,#datadivea,#datadivep{
+    padding: 3%;
+    width: 65%;
+    height: 80%;
+    padding-top: 0%;
+
+}
+
+#imgdivep{
+    height: 80%;
+    width: 35%;
+}
+#imgdivea{
+    height: 80%;
+    width: 55%;
+}
+#imgdivhb{
+    height: 80%;
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+h4{
+    color:#0ac1c1;
+    font-size: larger;
+    font-family: sans-serif;
+    margin-top: 0%;
+
+}
+
+h3{
+    font-family: sans-serif;
+}
+
+h2{
+    font-family: sans-serif;
+}
+
+#h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#spn{
+    display: flex;
+    margin-top: 0%;
+}
+
+li{
+    color: #a3a4a5;
+    font-size: smaller;
+    margin-left: 3%;
+}
+p{
+    text-align: justify;
+    font-size: 90%;
+}
+
+
+img,h4,h3:hover{
+    cursor: pointer;
+}
+

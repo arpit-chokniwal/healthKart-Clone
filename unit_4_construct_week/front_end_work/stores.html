@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stores</title>
+    <link rel="stylesheet" href="./style/stores_style.css" />
+    <link rel="stylesheet" href="./style/index.css" />
+  </head>
+  <body id="p_body">
+    
+    <div id="nav_bar_div"></div>
+
+    <div id="stores">Home&nbsp;/&nbsp;Stores</div>
+    <div id="city">
+      <div id="select_city">
+        <h2 class="p_h2">111 Stores in 46 cities across India</h2>
+        <p id="comming">And More Coming Soon Near You...</p>
+        <br />
+        <select class="p_select" name="city" id="cities">
+          <option class="p_option" value="agra">Agra</option>
+          <option class="p_option" value="delhi">Delhi</option>
+          <option class="p_option" value="gurugram">Gurugram</option>
+          <option class="p_option" value="noida">Noida</option>
+          <option class="p_option" value="banglore">Bangluru</option>
+          <option class="p_option" value="pune">Pune</option>
+          <option class="p_option" value="mohali">Mohali</option>
+        </select>
+      </div>
+    </div>
+    <div class="serv">
+      <h2 class="p_h2">Exclusive Store Services</h2>
+    </div>
+    <div class="services">
+      <div id="image">
+        <img class="p_img" src="p_images/van.jpg" alt="" />
+      </div>
+      <div id="text">
+        <h3 class="p_h3">Pick It Up At The Store Or Get It Delivered</h3>
+        <br />
+        <p class="p_p">
+          Never run out of your health stack, step into the store near you or
+          get your stock of supplements delivered at your doorstep.
+        </p>
+      </div>
+    </div>
+    <div class="services1">
+      <div id="text">
+        <h3 class="p_h3">Earn HK Cash With Every Purchase</h3>
+        <br />
+        <p class="p_p">
+          Every time you shop with us you get rewarded with HK Cash for your
+          future purchases. You can spend them both at our stores & on the
+          website.
+        </p>
+      </div>
+      <div class="image1">
+        <img class="p_img" src="p_images/wallet.jpg" alt="" />
+      </div>
+    </div>
+    <div class="services">
+      <div id="image">
+        <img class="p_img" src="p_images/return.jpg" alt="" />
+      </div>
+      <div id="text">
+        <h3 class="p_h3">Easy Return Policy</h3>
+        <br />
+        <p class="p_p">
+          You can always go back to a store near you and return products within
+          14 days without any hassle if unsatisfied.
+        </p>
+      </div>
+    </div>
+    <div class="services1">
+      <div id="text">
+        <h3 class="p_h3">Expert Guidance</h3>
+        <br />
+        <p class="p_p">
+          Our experts will be happy to guide while you shop at our store. Know
+          from them, supplements that will work depending on your fitness goals.
+        </p>
+      </div>
+      <div class="image1">
+        <img class="p_img" src="p_images/expert.jpg" alt="" />
+      </div>
+    </div>
+    <div class="services">
+      <div id="image">
+        <img class="p_img" src="p_images/offer.jpg" alt="" />
+      </div>
+      <div id="text">
+        <h3 class="p_h3">Special Offers</h3>
+        <br />
+        <p class="p_p">
+          Keep visiting our stores for latest supplement tastings, special
+          weekly deals, freebies and discounts.
+        </p>
+      </div>
+    </div>
+    <div>
+      <h2 class="p_h2 serv">
+        Check Out Our Latest Stores Near You stores near you
+      </h2>
+    </div>
+    <div class="slideshow-container">
+      <div class="mySlides">
+        <img class="bnr" src="p_images/bnr1.jpg" style="width: 100%" />
+        <div class="text">Healthkart Store at Eros Mall, Faridabad</div>
+      </div>
+
+      <div class="mySlides">
+        <img class="bnr" src="p_images/bnr2.jpg" style="width: 100%" />
+        <div class="text">Healthkart Store at Galleria, Gurugram</div>
+      </div>
+
+      <div class="mySlides">
+        <img class="bnr" src="p_images/bnr3.jpg" style="width: 100%" />
+        <div class="text">Healthkart Store at Punjabi Bagh, Delhi</div>
+      </div>
+
+      <div class="mySlides">
+        <img class="bnr" src="p_images/bnr4.jpg" style="width: 100%" />
+        <div class="text">Healthkart Store at Cosmos, Noida</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+    <!-- Footer ------------------------------------->
+    <div id="footer_div"></div>
+
+  </body>
+  <script src="./scripts//stores_script.js"></script>
+</html>
+
+<script type="module">
+  import { footer, navbarfirst } from "./components/components.js";
+  document.getElementById("footer_div").innerHTML = footer();
+  document.getElementById("nav_bar_div").innerHTML = navbarfirst();
+</script>

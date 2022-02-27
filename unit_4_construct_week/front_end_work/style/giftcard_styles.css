@@ -1,0 +1,258 @@
+
+#g_body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, sans-serif;
+    box-sizing: border-box;
+}
+#stores{
+    font-size: 14px;
+    padding: 8px 16px;
+    color: gray;
+}
+#gift_container{
+    background-color: #EFF3F5;
+}
+#g_banner{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    height: 400px;
+    background-color: #092E58;
+}
+#giftcardImg{
+    height: 100%;
+}
+#giftcard{
+    background-image: linear-gradient(to bottom , #092E58,#000812);
+    padding-left: 80px;
+    padding-top: 50px;
+}
+#textcard{
+    font-size: 26px;
+    color: #4BF4E1;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#healthy{
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+#g_btn{
+    padding: 15px 10px;
+    font-size: 22px;
+    color: rgb(43, 43, 43);
+    font-weight: bold;
+}
+#g_btn:hover{
+    color: #00554b;
+}
+
+#cardBenifits{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    color: rgb(37, 37, 37);
+    font-size: 18px;
+}
+.ban_p{
+    width: 60%;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.bancard{
+    width: 45%;
+    border: rgb(207, 207, 207) solid 2px;
+    padding: 20px;
+    border-radius: 50%;
+    margin-top: 50px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#cou_container{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+#buy_cop{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 240px;
+    border: rgb(207, 207, 207) solid 1px;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#cop{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 60%;
+    background-color: #EFF3F5;
+    height: 170px;
+    border-radius: 20px;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+#cop_img{
+    width: 100%;
+    border-radius: 0px 20px 20px 0px;
+}
+#rs{
+    text-align: center;
+    margin-top: 20px;
+}
+#rs>p{
+    font-size: 10px;
+}
+#rs>p:nth-child(1){
+    font-size: 26px;
+}
+.fas{
+    font-size: 22px;
+    font-weight: normal;
+}
+#goh{
+    padding: 20px;
+}
+#goh>p:nth-child(1), #redeem>p:nth-child(1){
+    font-size: 24px;
+}
+#goh>p:nth-child(2), #redeem>p:nth-child(2){
+    font-size: 14px;
+    color: gray;
+}
+#goh>button{
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(235, 73, 8);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+}
+#redeem{
+    height: 240px;
+    border: rgb(207, 207, 207) solid 1px;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+    padding: 20px;
+}
+#redeem>button{
+    width: 100%;
+    padding: 15px;
+    background-color: #32BFC0;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+}
+
+#terms{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    color: gray;
+    font-size: 16px;
+    line-height: 32px;
+    padding-bottom: 50px;
+}
+#terms>p{
+    font-size: 25px;
+    color: rgb(46, 46, 46);
+}
+
+/*
+
+Footer
+
+*/
+
+
+#fotter_container{
+    margin: auto;
+    height: 1100px;
+    margin-top: 100px;
+}
+#upper_fotter{
+    width: 90%;
+    height: 75%;
+    margin: 0px auto 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+#showupper{
+    width: 95%;
+    height: 350px;
+    margin: 10px auto;
+}
+.inupper{
+    border: 1px solid grey;
+}
+#upper_fotter2>p{
+    width: 90%;
+    height: 13%;
+    margin: 10px auto 0px auto;
+    border: 1px solid gray;
+    padding: 10px;
+
+}
+.inupper img{
+    margin: 40px 38% 0px 38%
+}
+.inupper h3{
+    text-align: center;
+    padding: 2px;
+    color: rgb(61, 61, 61);
+}
+.inupper p{
+    text-align: center;
+    padding: 2px;
+    color: gray;
+}
+#imghold{
+    display: flex;
+    margin: 40px 30% 0px 38%;
+}
+#imghold img{
+    margin: 0%;
+}
+
+#imghold2{
+    display: flex;
+    margin: 0px 30px;
+}
+
+#imghold2 img{
+    margin:0px  2px;
+}
+#plus{
+    margin: 0px 2% ;
+}
+#lower_fotter{
+    width: 100%;
+    height: 730px;
+    background-color: rgb(249,249,249);
+}
+#imgcont{
+    padding: 50px 6%;
+}
+#imgcont img{
+    background-size:100% ;
+}
+#imgcont2{
+    margin: -50px 6%;
+}

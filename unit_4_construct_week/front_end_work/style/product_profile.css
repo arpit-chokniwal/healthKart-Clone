@@ -1,0 +1,257 @@
+#pp_box1{
+    border: 1px solid transparent;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#pp_box11{
+    border: 1px solid transparent;
+}
+#pp_box111{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+#veg_logo{
+    width: 20px;
+}
+#best_price{
+    width: 80px;
+    height: 18px;
+    background: #f2cb60;
+    display: flex;
+    border-radius: 5px;
+    padding-top: 2px;
+    padding-left: 5px;
+}
+#best_price>p{
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 0px;
+}
+#best_price_img{
+    width: 10px;
+    height: 10px;
+}
+#pp_box112{
+    width: 95%;
+    height: 300px;
+    border: 1px solid transparent;
+    margin: auto;
+    text-align: center;
+    
+}
+#big_img{
+    height: 100%;
+    cursor: pointer;
+}
+/* #big_img:hover{
+    
+} */
+#pp_box113{
+    height: 90px;
+    width: 70%;
+    border: 1px solid transparent;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    gap: 3%;
+}
+#pp_box113>img{
+    cursor: pointer;
+}
+#temp_img{
+    width: 60%;
+    height: 100%;
+    text-align: end;
+}
+#pp_box12{
+    border: 1px solid transparent;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+}
+#pp_box121{
+    font-size: 17px;
+    
+}
+#pp_box121>h3{
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+#pp_box122{
+    font-size: 15px;
+}
+#gree_text{
+    color: #319ba7;
+}
+#pp_box123{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+#pp_box123>span{
+    background: #e7454f;
+    color: white;
+    border-radius: 3px;
+}
+#pp_box124>span:nth-child(1){
+    font-size: 30px;
+    font-weight: bold;
+}
+#pp_box124>span:nth-child(2){
+    text-decoration: line-through;
+    color: gray;
+}
+#hk_cash{
+    font-size: 17px;
+}
+#hk_cash+p{
+    font-size: 15px;
+    margin-top: 3px;
+}
+#prime_img{
+    margin-top: 2%;
+    height: 13px;
+}
+#pp_box125{
+    margin: 2%;
+    height: 40px;
+}
+#pp_box1251{
+    margin: 2%;
+    padding: 5px;
+    border: 1px solid #4ccfc9;
+    font-size: 15px;
+    background: #edfffe;
+    border-radius: 5px;
+}
+#pp_box126{
+    display: flex;
+    gap: 20px;
+
+}
+#pp_box126>button{
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+#pp_btn1{
+    display: flex;
+    gap: 20px;
+    padding: 12px;
+}
+#pp_btn1>div{
+    height: 50px;
+}
+#pp_btn3{
+    background: #e7454f;
+    color: white;
+}
+#pp_box127{
+    margin-top: 6px;
+    width: 90%;
+}
+#pp_box1271{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+#pp_box1271>span:nth-child(2){
+    display: flex;
+}
+#pp_box1272{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+.pp_btn4{
+    height: 50px;
+    width: 30%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background: whitesmoke;
+    color: gray;
+    cursor: pointer;
+}
+#pound,#kilogram{
+    cursor: pointer;
+    font-size: 14px;
+    background: white;
+    /* background: rgb(196, 194, 194); */
+    border: 1px solid gray;
+}
+#kilogram{
+    background: rgb(196, 194, 194);
+}
+#flavour{
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    background: white;
+}
+#pp_box2{
+    border: 1px solid transparent;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#pp_box211{
+    border: 1px solid transparent;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 16px;
+}
+#pp_box211>span{
+    padding: 1%;
+    background: rgb(218, 211, 211);
+    border-radius: 2px;
+}
+#pp_wishlist>img{
+    height: 15px;
+}
+#pp_compare>img{
+    height: 13px;
+}
+#pp_box2121{
+    border: 1px solid transparent;
+    font-size: 15px;
+    padding-left: 24%;
+}
+#pp_box2121>li{
+    list-style: none;
+}
+#pp_box213{
+    border: 1px solid transparent;
+    font-size: 15px;
+}
+#pp_box221{
+    padding: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: rgb(241, 240, 240);
+    border-radius: 10px;
+    font-size: 15px;
+}
+.d_options{
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+#d_pincode{
+    display: flex;
+}
+#pp_box222{
+    margin-top: 5%;
+}
+#pp_box2221{
+    padding: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 15px;
+}

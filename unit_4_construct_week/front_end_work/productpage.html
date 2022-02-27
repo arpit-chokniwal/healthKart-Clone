@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>product page</title>
+    <!-- <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    /> -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    /> -->
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600&family=Shippori+Antique&display=swap"
+      rel="stylesheet"
+    /> -->
+    <!-- <link rel="stylesheet" href="./style/product.css" /> -->
+    <link rel="stylesheet" href="./style/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      #product_page_top_section {
+        padding-left: 2%;
+        height: 220px;
+        display: grid;
+        grid-template-columns: 15% 85%;
+        border: 1px solid transparent;
+      }
+      .product_sort{
+        display: flex;
+        justify-content: space-evenly;
+      }
+      #product_page_sorting_div{
+        border: 1px solid transparent;
+        height: 100%;
+      }
+      #product_page_flashimg_div{
+        border: 1px solid transparent;
+        height: 100%;
+      }
+      #flash_img{
+        width: 100%;
+        height: 220px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="nav_bar_div"></div>
+
+    <div id="product_page_top_section">
+      <div id="product_page_sorting_div">
+        <h4>Sort By Price</h4>
+        <br />        
+      <div class="product_sort">
+        <h5>Low-To-High-Price</h5>
+        <input type="checkbox" name="low_to_high_price" id="low_to_high_price" />
+      </div>
+      <br>
+      <div class="product_sort">
+        <h5>High-To-Low-Price</h5>
+        <input  type="checkbox" name="high_to_low_price" id="high_to_low_price" />
+      </div>
+        <br>
+        <h4>Sort By Rating</h4>
+        <br />
+        <div class="product_sort">
+          <h5>Low-To-High-Rating</h5>
+          <input type="checkbox" name="" id="" />
+        </div>
+        <br>
+        <div class="product_sort">
+          <h5>High-To-Low-Rating</h5>
+          <input type="checkbox" name="" id="" />
+        </div>
+        
+      </div>
+      <div id="product_page_flashimg_div">
+        <img
+          id="flash_img"
+          src="https://static1.hkrtcdn.com/hknext/static/media/common/flash/flash-sale.webp"
+          alt="Healthkart"
+        />
+      </div>
+      
+    </div>
+
+    <div id="product"></div>
+
+    <div id="footer_div"></div>
+  </body>
+</html>
+
+<script src="./scripts/productpage.js"></script>
+
+<script type="module">
+  import { footer, navbarfirst } from "./components/components.js";
+  document.getElementById("footer_div").innerHTML = footer();
+  document.getElementById("nav_bar_div").innerHTML = navbarfirst();
+</script>
+
+
+

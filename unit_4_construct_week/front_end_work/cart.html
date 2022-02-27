@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart Page</title>
+    <link rel="stylesheet" href="./style/index.css" />
+    <link rel="stylesheet" href="./style/cart_page.css">
+  </head>
+  <body>
+    <div id="nav_bar_div"></div>
+
+    <div id="cart_main_div">
+      <div id="cart_left_div">
+        <!-- add product here -->
+
+        <!-- add product here -->
+      </div>
+      <div id="cart_right_div">
+        <div class="box123">
+          <div class="top"><h5>PRICE SUMMARY</h5></div>
+          <div class="middle">
+            <div id="add_cart_data">
+              <div class="right">
+                <div>Bag Total</div>
+                <div id="bag_total"></div>
+              </div>
+            </div>
+            <div class="right">
+              <div>Discount</div>
+              <div>Rs 0</div>
+            </div>
+            <div class="right">
+              <div>Shipping Charges</div>
+              <div>Rs 49</div>
+            </div>
+          </div>
+          <div class="grand">
+            <div>Grand Total</div>
+            <div id="grand_total"></div>
+          </div>
+        </div>
+        <br />
+        <button onclick="gotopayment()" id="proceed_to_pay">Proceed To Payment</button>
+      </div>
+    </div>
+    <div id="footer_div"></div>
+  </body>
+  <script src="./scripts/cart_page.js"></script>
+</html>
+
+<script type="module">
+  import { footer, navbarfirst } from "./components/components.js";
+  document.getElementById("footer_div").innerHTML = footer();
+  document.getElementById("nav_bar_div").innerHTML = navbarfirst();
+</script>
