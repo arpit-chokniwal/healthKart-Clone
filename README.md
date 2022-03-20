@@ -38,15 +38,11 @@ In our website, we tried our best to clone same as original website.</p>
 
 <h2>Contributors :</h2>
 <ul >
-     <li>
-          <p >Amaresh Barik : <a href="https://github.com/amareshcoding">https://github.com/amareshcoding</a></p>
-     </li>
+     
      <li>
           <p >Arpit <a href="https://github.com/fabpot11">https://github.com/fabpot11</a></p>
      </li>
-     <li>
-          <p >Birendra Gupta : <a href="https://github.com/birendra20">https://github.com/birendra20</a></p>
-     </li>
+     
 </ul>
 <h2 >Our blog link :</h2>
 <p >
