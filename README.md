@@ -36,14 +36,7 @@ In our website, we tried our best to clone same as original website.</p>
 <h2 >Order or Past-Purchase Section :</h2>
 <p>The user can see an order successful message.</p>
 
-<h2>Contributors :</h2>
-<ul >
-     
-     <li>
-          <p >Arpit <a href="https://github.com/fabpot11">https://github.com/fabpot11</a></p>
-     </li>
-     
-</ul>
+
 <h2 >Our blog link :</h2>
 <p >
      <a rel="noreferrer" target="_blank" href="https://medium.com/@amaresh.acb/project-healthkart-clone-bfec7dde93b1" rel="nofollow">https://medium.com/@amaresh.acb/project-healthkart-clone-bfec7dde93b1</a>
