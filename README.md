@@ -68,9 +68,9 @@ In our website, we tried our best to clone same as original website.</p>
 
 ## Contributors :
 
-<p >Amaresh Barik : <a href="https://github.com/amareshcoding">https://github.com/amareshcoding</a></p>
 <p >Arpit <a href="https://github.com/fabpot11">https://github.com/fabpot11</a></p>
-<p >Hemant Ahire </p>
+<p >Amaresh Barik : <a href="https://github.com/amareshcoding">https://github.com/amareshcoding</a></p>
+
 
 <h2 >Our blog link :</h2>
 <p >
