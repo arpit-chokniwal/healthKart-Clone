@@ -13,7 +13,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd healthKart.com_clone_2.0/back_end_work/
+  cd healthKart-Clone
 ```
 
 Install dependencies
