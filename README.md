@@ -7,7 +7,7 @@
 Clone the project
 
 ```bash
-  git clone https://github.com/amareshcoding/healthKart.com_clone_2.0.git
+  git clone https://github.com/fabpot11/healthKart-Clone.git
 ```
 
 Go to the project directory
